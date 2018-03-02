@@ -1,6 +1,6 @@
 ---
 layout:default
-title: AllenLei's blog
+title: AllenLei's_blog
 ---
 
 <h2>{{ page.title }}</h2>
@@ -8,7 +8,7 @@ title: AllenLei's blog
 <ul>
   {% for post in site.posts %}
     <li>
-      {{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+      {{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
